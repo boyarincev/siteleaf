@@ -1,7 +1,12 @@
 ---
-layout: post
 title: ASP.NET 5 Новый тип проекта и работа с Grunt
-tags: ASP-NET-5 Grunt
+date: 2015-12-01 00:00:00 Z
+categories:
+- dotnet
+tags:
+- ASP-NET-5
+- Grunt
+layout: post
 ---
 
 В этой статье я опишу новый проект веб-приложения ASP.NET 5, а также расскажу о настройке и использовании Grunt в нем.

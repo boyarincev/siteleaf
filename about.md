@@ -1,8 +1,9 @@
 ---
-layout: page
 title: Обо мне
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
+
 ![Бояринцев Станислав](/images/a_9ee26d41.jpg)
 
 Меня зовут Бояринцев Стас. Я - .NET программист.
