@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <ul class="tags">
+    {% for tag in page.tags %}
+      <li><i class="icon-tag"></i><a href="{{ site.baseurl }}/tags/#{{tag | downcase | replace:" ","-" }}">{{tag | downcase }}</a></li> 
+    {% endfor %}
+  </ul>
+  
+  <div class="pre-post-info">
+      <blockquote>
+         <p>
+             Рекомендую паблик в вконтакте - <a href="https://vk.com/dotnetter">Апатичный Дотнетчик</a>, 
+             в котором отслеживаются и публикуются новости и свежие статьи о дотнете. Также у них есть 
+             <a href="https://t.me/dotnetter">телеграм-канал</a>.
+          </p>
+      </blockquote    
+  </div>
+  
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  {% include disqus.html %}
+</article>
